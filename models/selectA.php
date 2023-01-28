@@ -3,7 +3,9 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: Origin, X-Request-with, Content-type, Accept, Authorization');
 header('Content-Type:application/json');
 header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
+
 include 'conexion.php';
+
 $sqlselect = "SELECT * FROM estudiantes";
 $respuesta = $conn->query($sqlselect);
 

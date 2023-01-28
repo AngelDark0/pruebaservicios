@@ -1,16 +1,11 @@
 <?php
 if(isset($_POST['cedula'])){
     if($_POST['cedula']!=""){
-        $url="../models/buscar.php?cedula=".$_POST['cedula'];
+
+        $url="../models/buscarA.php?cedula=".$_POST['cedula'];
 
     }else {
-    $url="../models/select.php";
-
-        
-    
-
-        
-   
+    $url="../models/selectA.php";
 }
 }
 
@@ -36,6 +31,7 @@ if(isset($_POST['cedula'])){
     <p>Listado de estudiantes registrados.</p>
 
     <form action="../view/inicio.php" method="POST">
+        
             <label for="buscar">Ingrese la cedula </label>    
             <input name="cedula" type="text" id="cedula">
             

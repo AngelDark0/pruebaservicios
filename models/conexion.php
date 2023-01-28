@@ -12,10 +12,7 @@ $mysqli= new mysqli($host, $user, $password, $dbname, $port, $socket);
  {
    die ('Could not connect to the database server' . mysqli_connect_error());
 
- }else{
-   echo json_encode("true");
  }
-
 
 
  ?>
