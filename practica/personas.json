@@ -1,0 +1,30 @@
+ [
+    {
+        "apellido": "demo",
+        "nombre": "dark",
+        "direcion": [{"casa":"los shiris"}, {"trabajo": "Ambato"}],
+        "telefono": [{"celular": "0915642345"}, {"convencional": "000000"}],
+        "sexo": "masculino",
+        "edad" :20
+    },
+
+    {
+        "apellido": "demo 1",
+        "nombre": "dark 1",
+        "direcion": [{"casa":"los ffg"}, {"trabajo": "Lataccunga"}],
+        "telefono": [{"celular": "0915642345"}, {"convencional": "000000"}],
+        "sexo": "femenino",
+        "edad" :22
+    }
+    ,
+    {
+        "apellido": "demo 2",
+        "nombre": "dark 2",
+        "direcion": [{"casa":"los shiris"}, {"trabajo": "Quito"}],
+        "telefono": [{"celular": "0915642345"}, {"convencional": "000000"}],
+        "sexo": "masculino",
+        "edad" :24
+    }
+]
+ 
+ 
